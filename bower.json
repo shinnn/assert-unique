@@ -9,7 +9,7 @@
     "unique",
     "duplicate"
   ],
-  "main": "./assert-unique.js",
+  "main": "assert-unique.js",
   "homepage": "https://github.com/shinnn/assert-unique",
   "repository": {
     "type": "git",
@@ -29,13 +29,11 @@
   "ignore": [
     "**/.*",
     "*.yml",
+    "*.js",
+    "*.json",
     "bower_components",
     "components",
     "coverage",
-    "node_modules",
-    "test.js",
-    "assert-unique-cjs.js",
-    "package.json",
-    "component.json"
+    "node_modules"
   ]
 }
