@@ -1,7 +1,5 @@
 'use strict';
 
-var path = require('path');
-
 var requireBowerFiles = require('require-bower-files');
 var test = require('tape');
 
@@ -27,12 +25,13 @@ function runTest(description, main) {
     );
 
     t.throws(
-      main.bind(null, undefined, null, undefined), /undefined is duplicated\./,
+      main.bind(null, undefined, null, undefined),
+      /undefined is duplicated\./,
       'should throw an error when a value is duplicated.'
     );
 
     t.throws(
-      main.bind(null, false, false, main, '', main, false, path.join, path.join),
+      main.bind(null, false, false, main, '', main, false, test, test),
       /false, \[Function: assertUnique\] and \[Function\] are duplicated\./,
       'should throw an error when multiple values are duplicated.'
     );

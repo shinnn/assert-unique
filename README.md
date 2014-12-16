@@ -1,10 +1,10 @@
 # assert-unique
 
-[![Build Status](https://travis-ci.org/shinnn/assert-unique.svg?branch=master)](https://travis-ci.org/shinnn/assert-unique)
+[![Build Status](https://img.shields.io/travis/shinnn/assert-unique.svg?style=flat)](https://travis-ci.org/shinnn/assert-unique)
 [![Build status](https://ci.appveyor.com/api/projects/status/w903h2cdw14tafdj?svg=true)](https://ci.appveyor.com/project/ShinnosukeWatanabe/assert-unique)
-[![Coverage Status](https://img.shields.io/coveralls/shinnn/assert-unique.svg)](https://coveralls.io/r/shinnn/assert-unique)
-[![Dependency Status](https://david-dm.org/shinnn/assert-unique.svg)](https://david-dm.org/shinnn/assert-unique)
-[![devDependency Status](https://david-dm.org/shinnn/assert-unique/dev-status.svg)](https://david-dm.org/shinnn/assert-unique#info=devDependencies)
+[![Coverage Status](https://img.shields.io/coveralls/shinnn/assert-unique.svg?style=flat)](https://coveralls.io/r/shinnn/assert-unique)
+[![Dependency Status](https://david-dm.org/shinnn/assert-unique.svg?style=flat)](https://david-dm.org/shinnn/assert-unique)
+[![devDependency Status](https://david-dm.org/shinnn/assert-unique/dev-status.svg?style=flat)](https://david-dm.org/shinnn/assert-unique#info=devDependencies)
 
 Test if values have no duplication
 
@@ -16,13 +16,16 @@ assertUnique(3, 'a', 3, 3, true, 'a'); // Error: 3 and "a" are duplicated.
 
 ### Package managers
 
-#### [npm](https://www.npmjs.org/) [![NPM version](https://badge.fury.io/js/assert-unique.svg)](https://www.npmjs.org/package/assert-unique)
+[![NPM version](https://img.shields.io/npm/v/assert-unique.svg?style=flat)](https://www.npmjs.com/package/assert-unique)
+[![Bower version](https://img.shields.io/bower/v/assert-unique.svg?style=flat)](https://github.com/shinnn/assert-unique/releases)
+
+#### [npm](https://www.npmjs.com/)
 
 ```sh
 npm install assert-unique
 ```
 
-#### [bower](http://bower.io/) [![Bower version](https://badge.fury.io/bo/assert-unique.svg)](https://github.com/shinnn/assert-unique/releases)
+#### [bower](http://bower.io/)
 
 ```sh
 bower install assert-unique
