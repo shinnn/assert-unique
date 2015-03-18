@@ -1,10 +1,12 @@
 # assert-unique
 
-[![Build Status](https://img.shields.io/travis/shinnn/assert-unique.svg?style=flat)](https://travis-ci.org/shinnn/assert-unique)
+[![NPM version](https://img.shields.io/npm/v/assert-unique.svg)](https://www.npmjs.com/package/assert-unique)
+[![Bower version](https://img.shields.io/bower/v/assert-unique.svg)](https://github.com/shinnn/assert-unique/releases)
+[![Build Status](https://img.shields.io/travis/shinnn/assert-unique.svg)](https://travis-ci.org/shinnn/assert-unique)
 [![Build status](https://ci.appveyor.com/api/projects/status/w903h2cdw14tafdj?svg=true)](https://ci.appveyor.com/project/ShinnosukeWatanabe/assert-unique)
-[![Coverage Status](https://img.shields.io/coveralls/shinnn/assert-unique.svg?style=flat)](https://coveralls.io/r/shinnn/assert-unique)
-[![Dependency Status](https://david-dm.org/shinnn/assert-unique.svg?style=flat)](https://david-dm.org/shinnn/assert-unique)
-[![devDependency Status](https://david-dm.org/shinnn/assert-unique/dev-status.svg?style=flat)](https://david-dm.org/shinnn/assert-unique#info=devDependencies)
+[![Coverage Status](https://img.shields.io/coveralls/shinnn/assert-unique.svg)](https://coveralls.io/r/shinnn/assert-unique)
+[![Dependency Status](https://img.shields.io/david/shinnn/assert-unique.svg?label=deps)](https://david-dm.org/shinnn/assert-unique)
+[![devDependency Status](https://img.shields.io/david/dev/shinnn/assert-unique.svg?label=devDeps)](https://david-dm.org/shinnn/assert-unique#info=devDependencies)
 
 Test if values have no duplication
 
@@ -15,9 +17,6 @@ assertUnique(3, 'a', 3, 3, true, 'a'); // Error: 3 and "a" are duplicated.
 ## Installation
 
 ### Package managers
-
-[![NPM version](https://img.shields.io/npm/v/assert-unique.svg?style=flat)](https://www.npmjs.com/package/assert-unique)
-[![Bower version](https://img.shields.io/bower/v/assert-unique.svg?style=flat)](https://github.com/shinnn/assert-unique/releases)
 
 #### [npm](https://www.npmjs.com/)
 
